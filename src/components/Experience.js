@@ -12,7 +12,10 @@ const Experience = () => (
           Full Stack Web Developer
         </Typography>
         <Typography variant="body2" color="textSecondary" component="p">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus debitis cupiditate perspiciatis doloribus. Sit quod delectus ratione voluptate fugiat fuga, eum, facere omnis ullam neque dignissimos aliquam et quos quaerat!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          {' '}
+          <br />
+          Ducimus debitis cupiditate perspiciatis doloribus.
         </Typography>
       </CardContent>
       <CardActions>
@@ -31,7 +34,13 @@ const Experience = () => (
           Full Stack Web Developer
         </Typography>
         <Typography variant="body2" color="textSecondary" component="p">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus debitis cupiditate perspiciatis doloribus. Sit quod delectus ratione voluptate fugiat fuga, eum, facere omnis ullam neque dignissimos aliquam et quos quaerat!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          {' '}
+          <br />
+          Ducimus debitis cupiditate perspiciatis doloribus.
+          {' '}
+          <br />
+          Sit quod delectus.
         </Typography>
       </CardContent>
       <CardActions>

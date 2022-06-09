@@ -1,9 +1,7 @@
 import React from 'react';
 import {
-  Button, Card, CardActions, CardContent, Typography
+  Button, Card, CardActions, CardContent, Typography,
 } from '@mui/material';
-
-
 
 const Services = () => (
   <div>
@@ -17,7 +15,15 @@ const Services = () => (
               Web Development
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus debitis cupiditate perspiciatis doloribus. Sit quod delectus ratione voluptate fugiat fuga, eum, facere omnis ullam neque dignissimos aliquam et quos quaerat!
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              {' '}
+              <br />
+              {' '}
+              Ducimus debitis cupiditate perspiciatis doloribus.
+              {' '}
+              <br />
+              {' '}
+              Sit quod delectus.
             </Typography>
           </CardContent>
           <CardActions>
@@ -37,7 +43,10 @@ const Services = () => (
               Web Development
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus debitis cupiditate perspiciatis doloribus. Sit quod delectus ratione voluptate fugiat fuga, eum, facere omnis ullam neque dignissimos aliquam et quos quaerat!
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              {' '}
+              <br />
+              Ducimus debitis cupiditate perspiciatis doloribus. Sit quod delectus.
             </Typography>
           </CardContent>
           <CardActions>
@@ -57,8 +66,8 @@ const Services = () => (
               Web Development
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus debitis cupiditate perspiciatis doloribus. Sit quod delectus ratione voluptate fugiat fuga, eum, facere omnis ullam neque dignissimos aliquam et quos quaerat!   sfbhdxsdfjb
-                        </Typography>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </Typography>
           </CardContent>
           <CardActions>
             <Button size="small" color="primary">

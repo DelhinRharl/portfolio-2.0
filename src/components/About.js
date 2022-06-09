@@ -9,7 +9,7 @@ const About = () => (
       Hello there. I am Affaxed Kiprotich
     </h3>
     <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus debitis cupiditate perspiciatis doloribus. Sit quod delectus ratione voluptate fugiat fuga, eum, facere omnis ullam neque dignissimos aliquam et quos quaerat!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
     </p>
     <div>
       <ul>
@@ -18,7 +18,7 @@ const About = () => (
             <strong>Web Development</strong>
           </p>
           <p>
-            I am a full stack web developer with a passion for building beautiful, responsive websites.
+            I am a full stack web developer with a passion for building beautiful
           </p>
         </li>
         <li>
