@@ -1,21 +1,22 @@
 import React from 'react';
-import Experience from './components/Experience';
 import Footer from './components/Footer';
-import Hero from './components/Hero';
+import Hero from './pages/Hero';
 import Navbar from './components/Navbar';
-import About from './components/About';
-import Services from './components/Services';
-import Projects from './components/Projects';
+import About from './pages/About';
+import Services from './pages/Services';
+import Projects from './pages/Projects';
+import Contact from './pages/Contact';
+import {Routes, Route,BrowserRouter } from 'react-router-dom';
 
 const App = () => (
   <div>
-    <Navbar />
-    <Hero />
-    <About />
-    <Experience />
-    <Services />
-    <Projects />
-    <Footer />
+    <Routes>
+      <Route path="/" element={<Hero />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/services" element={<Services />} />
+      <Route path="/projects" element={<Projects />} />
+      <Route path="/contacts" element={<Contact/>} />
+    </Routes>
   </div>
 );
 
