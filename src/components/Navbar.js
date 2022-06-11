@@ -7,8 +7,11 @@ const Navbar = () => (
       <img src="i.png" alt="img" />
     </div>
     <ul className="text-white flex justify-end gap-6 p-2  ">
-      <li  className="hover:text-amber-500 cursor-pointer">
-        <Link to="/"> Home </Link> </li>
+      <li className="hover:text-amber-500 cursor-pointer">
+        <Link to="/"> Home </Link>
+        {' '}
+
+      </li>
       <li className="hover:text-amber-500 cursor-pointer">About</li>
       <li className="hover:text-amber-500 cursor-pointer">Services</li>
       <li className="hover:text-amber-500 cursor-pointer">Experience</li>
