@@ -12,10 +12,14 @@ const Navbar = () => (
         {' '}
 
       </li>
-      <li className="hover:text-amber-500 cursor-pointer">About</li>
-      <li className="hover:text-amber-500 cursor-pointer">Services</li>
-      <li className="hover:text-amber-500 cursor-pointer">Experience</li>
-      <li className="hover:text-amber-500 cursor-pointer">Contact</li>
+      <li className="hover:text-amber-500 cursor-pointer active:bg-green-600">
+      <Link to="/about"> About </Link> {' '}       </li>
+      <li className="hover:text-amber-500 cursor-pointer">
+      <Link to="/services"> Services </Link> {' '}       </li>
+      <li className="hover:text-amber-500 cursor-pointer">
+      <Link to="/projects"> Projects </Link> {' '}       </li>
+      <li className="hover:text-amber-500 cursor-pointer">
+      <Link to="/contacts"> Contacts </Link> {' '}       </li>
     </ul>
   </div>
 );
