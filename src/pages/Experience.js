@@ -6,7 +6,7 @@ import {
 const Experience = () => (
   <div>
     <h1>Experience</h1>
-    <Card sx={{ minWidth: 275 }}>
+    <Card sx={{ minWidth: 275 , overflow: "auto" }}>
       <CardContent>
         <Typography gutterBottom variant="h5" component="h2">
           Full Stack Web Developer

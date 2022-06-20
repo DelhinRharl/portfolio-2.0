@@ -1,82 +1,61 @@
 import React from 'react';
 import {
-  Button, Card, CardActions, CardContent, Typography,
+  Card, CardContent, Typography,
 } from '@mui/material';
 
 const Services = () => (
-  <div>
-    <h1> My Services</h1>
-    <p>I offer all these services</p>
-    <ul>
+  <div className="w-full min-h-screen flex flex-col items-center gap-10">
+    <h1 className="text-lg font-bold "> SERVICES</h1>
+    <p className="font-semibold text-3xl">I offer all these services</p>
+    <ul className="flex items-center justify-center gap-8">
       <li>
-        <Card sx={{ minWidth: 275 }}>
+        <Card sx={{ width: 300, height: 300 }}>
           <CardContent>
             <Typography gutterBottom variant="h5" component="h2">
               Web Development
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              I can build you a website that is responsive and looks great on all devices.
               {' '}
               <br />
               {' '}
-              Ducimus debitis cupiditate perspiciatis doloribus.
+              The website can be built using HTML, CSS, JavaScript, React, Ruby,Ruby on Rails  and Postgresql.
               {' '}
               <br />
               {' '}
-              Sit quod delectus.
+              Fast and Reliable Web Development!
             </Typography>
           </CardContent>
-          <CardActions>
-            <Button size="small" color="primary">
-              Share
-            </Button>
-            <Button size="small" color="primary">
-              Learn More
-            </Button>
-          </CardActions>
         </Card>
       </li>
       <li>
-        <Card sx={{ minWidth: 275 }}>
+        <Card sx={{ width: 300, height: 300 }}>
           <CardContent>
             <Typography gutterBottom variant="h5" component="h2">
-              Web Development
+              Web Design
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              I can design the best looking  website for your business.
               {' '}
               <br />
-              Ducimus debitis cupiditate perspiciatis doloribus. Sit quod delectus.
+              The website can have a unique and beautiful design to suite all your needs.
             </Typography>
           </CardContent>
-          <CardActions>
-            <Button size="small" color="primary">
-              Share
-            </Button>
-            <Button size="small" color="primary">
-              Learn More
-            </Button>
-          </CardActions>
         </Card>
       </li>
       <li>
-        <Card sx={{ minWidth: 275 }}>
+        <Card sx={{ width: 300, height: 300 }}>
           <CardContent>
             <Typography gutterBottom variant="h5" component="h2">
-              Web Development
+              UI/ UX Design
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              I can design the best looking UI/UX for your website.
+              {' '}
+              <br />
+              I can do this using Adobe XD, Sketch, Figma, and Photoshop.
             </Typography>
           </CardContent>
-          <CardActions>
-            <Button size="small" color="primary">
-              Share
-            </Button>
-            <Button size="small" color="primary">
-              Learn More
-            </Button>
-          </CardActions>
         </Card>
       </li>
     </ul>
