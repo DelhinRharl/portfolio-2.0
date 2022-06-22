@@ -8,8 +8,7 @@ Highlights Affaxed Kiprotich
 - HTML5
 - CSS
 - Javascript
-- Webpack
-- npm
+- React
 
 ## Live Demo
 
