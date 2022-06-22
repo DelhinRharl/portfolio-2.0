@@ -12,7 +12,7 @@ Highlights Affaxed Kiprotich
 
 ## Live Demo
 
-[Live Demo Link](https://62b330a10cf6570851ac5438--enchanting-twilight-a76053.netlify.app/)
+[Live Demo Link](https://portfolio-affax.herokuapp.com/)
 
 ## Getting Started
 
