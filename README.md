@@ -45,7 +45,7 @@ The Project should now be live on your browser
 
 - GitHub: [@DelhinRharl](https://github.com/DelhinRharl)
 - Twitter: [@affaxed_kip](https://twitter.com/delhinrharl)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/AffaxedKiprotich)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/affaxed-kiprotich)
 
 ## 📝 License
 
