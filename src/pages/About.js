@@ -1,7 +1,7 @@
 import React from 'react';
 
 const About = () => (
-  <div className="pl-20 pt-10 gap-7 flex flex-col items-center  h-[79vh] text-xl">
+  <div className="pl-20 pt-10 gap-7 flex flex-col items-center  h-[84vh] text-xl">
     <h2 className="text-4xl font-bold text-amber-600">
       {' '}
       About Me
