@@ -1,6 +1,6 @@
 # Portfolio
 
-Highlights Affaxed Kiprotich
+This portfolio highlights a my technical as well as soft skills as a web developer.
 
 
 ## Built With
