@@ -11,7 +11,7 @@ import Footer from './components/Footer';
 import Name from './components/Name';
 
 const App = () => (
-  <div className='font-body bg-[url("https://img.freepik.com/free-vector/abstract-memphis-background-with-circles-lines-shapes_1017-33621.jpg?t=st=1655846317~exp=1655846917~hmac=3c0d2b429052bc9360bae3506a258ce46dfc279e97379f4f24f9c824ebc6f124&w=2000")] text-white'>
+  <div className="font-body bg-bgImage bg-cover bg-no-repeat text-white">
     <BrowserRouter>
       <Navbar />
       <Name />
