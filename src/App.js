@@ -11,7 +11,7 @@ import Footer from './components/Footer';
 import Name from './components/Name';
 
 const App = () => (
-  <div className="font-body bg-bgImage bg-cover bg-no-repeat text-white">
+ <div className="font-body bg-bgImage bg-cover be bg-containt text-white">
     <BrowserRouter>
       <Navbar />
       <Name />
