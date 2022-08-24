@@ -4,7 +4,7 @@ import {
 } from '@mui/material';
 
 const Projects = () => (
-  <div className=" h-[79vh] flex gap-10 justify-center items-center flex-col text-xl ">
+  <div className="project-main">
     <div className="flex flex-col gap-10">
       <h1 className="text-amber-600 font-extrabold text-4xl">Projects</h1>
       <p> Here is a list of some of my projects</p>

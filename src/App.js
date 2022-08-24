@@ -11,10 +11,15 @@ import Footer from './components/Footer';
 import Name from './components/Name';
 
 const App = () => (
- <div className="font-body bg-bgImage bg-cover be bg-containt text-white">
+  <div className="font-body bg-black bg-cover be bg-containt text-white">
     <BrowserRouter>
       <Navbar />
       <Name />
+      <Hero />
+      {/* <About/> */}
+      <Services />
+      <Projects />
+      <Contact />
       <Routes>
         <Route path="/" element={<Hero />} />
         <Route path="/about" element={<About />} />

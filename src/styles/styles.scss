@@ -1,0 +1,47 @@
+$primaryColor: #D97706;
+$sBlack: #000;
+$sWhite: #fff;
+$border1: 1px solid #D97706;
+$border2: 2px solid #000;
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    background-color: $sBlack;
+    border-top: $border1;
+}
+   ul{
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    gap: 10%;
+    height: 2rem;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    }
+        
+    li {
+        font-size: 1rem;
+        color: $sWhite;
+        font-weight: normal;
+        &:hover{
+            color: $primaryColor;
+        }
+            a {
+                color: $sWhite;
+                text-decoration: none;
+                &:hover{
+                    color: $primaryColor;
+                }
+            }
+}
