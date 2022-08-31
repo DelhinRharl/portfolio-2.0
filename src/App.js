@@ -7,19 +7,17 @@ import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Experience from './pages/Experience';
 import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-import Name from './components/Name';
+// import Footer from './components/Footer';
+// import Name from './components/Name';
 
 const App = () => (
   <div className="font-body bg-black bg-cover be bg-containt text-white">
     <BrowserRouter>
-      <Navbar />
-      <Name />
-      <Hero />
+      {/* <Name /> */}
       {/* <About/> */}
-      <Services />
+      {/* <Services />
       <Projects />
-      <Contact />
+      <Contact /> */}
       <Routes>
         <Route path="/" element={<Hero />} />
         <Route path="/about" element={<About />} />
@@ -28,7 +26,8 @@ const App = () => (
         <Route path="/contacts" element={<Contact />} />
         <Route path="/experience" element={<Experience />} />
       </Routes>
-      <Footer />
+      <Navbar />
+      {/* <Footer /> */}
     </BrowserRouter>
   </div>
 );
