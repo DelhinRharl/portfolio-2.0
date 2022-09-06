@@ -56,7 +56,7 @@ $open-sans: 'Open Sans', sans-serif;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url('../../assets/images/blob-scene-haikei.svg');
+    background-image: url('../../assets/images/blob.svg');
     background-repeat: no-repeat;
     background-size: cover;
     // background-size: 15px 15px;
@@ -98,20 +98,20 @@ $open-sans: 'Open Sans', sans-serif;
             font-size: 3.5rem;
             font-weight:300;
             color: $primaryColor;
-            opacity: 60%;
+            // opacity: 60%;
         }
         
      .hero-image{
         width: 40%;
         height: 70%;        
         object-fit: cover;
-        box-shadow: 5px 5px 5px 1px #1a1a1a;
+        box-shadow: 1px 0.5px 100px 5px #D97706;
         border: #000 1px solid;
 
      }
      .socials{
         position: absolute;
-        bottom: 20%;
-        left: 9%;
+        bottom: 10%;
+        left: 4%;
      }
 }
