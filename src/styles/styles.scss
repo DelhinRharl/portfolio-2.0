@@ -53,10 +53,12 @@ $open-sans: 'Open Sans', sans-serif;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #000;
+    background-image: url('../../assets/images/blob-scene-haikei.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
     // background-size: 15px 15px;
     // background-image: radial-gradient(transparent 10px, rgb(255, 255, 255), #ffffff);
-    // background-repeat: repeat;
+    // background-repeat: no-repeat;
 
     .hero{
         display: flex;

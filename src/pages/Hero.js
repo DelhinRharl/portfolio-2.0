@@ -1,12 +1,21 @@
 import React from 'react';
+import Typed from 'react-typed';
 
 const Hero = () => (
   <div className="hero-main">
     <div className="hero">
       <div className="hero-text">
-        <h2>Hi, I am Affax</h2>
-        <h1>I am a full stack developer from Kenya</h1>
-        <p>I build user-friendly and dynamic web applications that suit your needs</p>
+        <h1>Hi, I am Affaxed Kiprotich</h1>
+        <p>I {''}
+        <Typed 
+          strings={[
+           'am from Kenya',
+            'build dynamic and responsive websites to suit your needs',
+          ]}
+          typeSpeed={50}
+          backSpeed={60}
+        />
+        </p>
       </div>
       <div className="hero-image">
         <img src="" alt="iammsdjhfb" />
