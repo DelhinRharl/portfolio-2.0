@@ -8,7 +8,6 @@ const Hero = () => (
         <h1>I am a full stack developer from Kenya</h1>
         <p>I build user-friendly and dynamic web applications that suit your needs</p>
       </div>
-      
       <div className="hero-image">
         <img src="" alt="iammsdjhfb" />
       </div>
