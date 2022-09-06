@@ -21,6 +21,9 @@ $open-sans: 'Open Sans', sans-serif;
     height: 20%;
     background-color: $sBlack;
     border-top: $border1;
+    // background-size: 15px 15px;
+    // background-image: radial-gradient(transparent 10px, rgb(255, 255, 255), #ffffff);
+    // background-repeat: no-repeat;
 }
    ul{
     text-decoration: none;
@@ -70,13 +73,16 @@ $open-sans: 'Open Sans', sans-serif;
         height: 96vh;
     }
      .hero-text{
+        position: relative;
+        top : 10%;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        // opacity: 90%;
+        // justify-content: center;
+        // align-items: center;
         gap: 1%;
         font-size: 1.5rem;
-        font-weight:300;
+        font-weight:bold;
         color: $sWhite;
         width: 50%;
         height: 90%;
@@ -86,13 +92,26 @@ $open-sans: 'Open Sans', sans-serif;
         // box-shadow: 5px 5px 5px 1px #1a1a1a;
         font-family: $popins;
         
-        
      }
+
+       .hero-text p{
+            font-size: 3.5rem;
+            font-weight:300;
+            color: $primaryColor;
+            opacity: 60%;
+        }
+        
      .hero-image{
         width: 40%;
         height: 70%;        
         object-fit: cover;
         box-shadow: 5px 5px 5px 1px #1a1a1a;
+        border: #000 1px solid;
 
+     }
+     .socials{
+        position: absolute;
+        bottom: 20%;
+        left: 9%;
      }
 }
