@@ -1,5 +1,6 @@
 import React from 'react';
 import Typed from 'react-typed';
+import img from '../images/g.avif'
 
 const Hero = () => (
   <div className="hero-main">
@@ -19,15 +20,15 @@ const Hero = () => (
             backSpeed={60}
           />
         </p>
-      </div>
-      <div className="hero-image">
-        <img src="" alt="iammsdjhfb" />
-      </div>
-    </div>
-    <div>
+          <div>
       <a href="https://github.com/DelhinRharl/Portfolio">
         <button type="button">Portfolio</button>
       </a>
+    </div>
+      </div>
+      <div className="hero-image">
+        <img src={img} alt="iammsdjhfb" />
+      </div>
     </div>
     <div className="socials">
       <h5>Socials</h5>

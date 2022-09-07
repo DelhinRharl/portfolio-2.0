@@ -108,6 +108,12 @@ $open-sans: 'Open Sans', sans-serif;
         box-shadow: 1px 0.5px 100px 5px #D97706;
         border: #000 1px solid;
 
+        .hero-image img{
+            width: 10px;
+            height: 10px;
+            object-fit: cover;
+        }
+
      }
      .socials{
         position: absolute;
