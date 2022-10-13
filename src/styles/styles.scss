@@ -1,7 +1,7 @@
-$primaryColor: #D97706;
+$primaryColor: #9663fd;
 $sBlack: #000;
 $sWhite: #fff;
-$border1: 1px solid #D97706 ;
+$border1: 1px solid #9663fd ;
 $border2: 2px solid #000;
 @import url(http://fonts.googleapis.com/css?family=Poppins|Open+Sans:400italic,700italic,400,700);
 
@@ -58,4 +58,27 @@ body{
         }
 }
 
+.hero {
+    background-color: #131c2c;
+    height: 100vh;
+
+    .hero-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        // align-items: center;
+        gap: 1rem;
+        p:first-child{
+            color: #9663fd;
+        }
+        h1{
+            color: #c2a8f8f9;
+            font-size: 4rem;
+        }
+        h2{
+            color: #ab94d9c7;
+            font-size: 3rem;
+        }
+    }
+}
 
