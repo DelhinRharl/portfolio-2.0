@@ -18,7 +18,7 @@ const Hero = () => (
       </p>
       <div>
         <a href="https://github.com/DelhinRharl">
-          <button type="button">GitHub</button>
+          <button type="button">Find out more!</button>
         </a>
       </div>
     </div>
