@@ -13,7 +13,7 @@ import Navbar from './components/Navbar';
 const App = () => (
   <div className="font-body bg-black bg-cover be bg-containt text-white">
     <BrowserRouter>
-      {/* <Name /> */}
+      <Navbar />
       {/* <About/> */}
       {/* <Services />
       <Projects />
@@ -26,7 +26,7 @@ const App = () => (
         <Route path="/contacts" element={<Contact />} />
         <Route path="/experience" element={<Experience />} />
       </Routes>
-      <Navbar />
+      {/* <Navbar /> */}
       {/* <Footer /> */}
     </BrowserRouter>
   </div>
