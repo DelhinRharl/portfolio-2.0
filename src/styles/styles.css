@@ -22,7 +22,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   height: 5%;
-  background-color: #000;
+  background-color: transparent;
 }
 
 ul {
@@ -102,19 +102,26 @@ li a:hover {
   font-size: 3rem;
 }
 
+.hero-btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5%;
+}
+
 button {
-  background-color: #9663fd;
+  background-color: transparent;
   color: #fff;
-  border: none;
+  border: 1px solid #9663fd;
   padding: 1rem 2rem;
   font-size: 1rem;
-  font-weight: 700;
+  font-weight: 500;
   font-family: "Poppins", serif;
   border-radius: 5px;
 }
 
 button:hover {
-  background-color: #c2a8f8f9;
+  background-color: #c3a8f8a2;
   color: #000;
 }
 /*# sourceMappingURL=styles.css.map */

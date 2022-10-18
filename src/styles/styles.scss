@@ -26,11 +26,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 5%;
-    background-color: $sBlack;
-    // border-bottom: $border1;
-    // background-size: 15px 15px;
-    // background-image: radial-gradient(transparent 10px, rgb(255, 255, 255), #ffffff);
-    // background-repeat: no-repeat;
+    background-color: transparent;
 }
    ul{
     text-decoration: none;
@@ -91,17 +87,22 @@ body{
     }
 }
 
+.hero-btns{
+    display: flex;
+    gap: 5%;
+}
+
 button{
-    background-color: $primaryColor;
+    background-color: transparent;
     color: $sWhite;
-    border: none;
+    border: 1px solid $primaryColor;
     padding: 1rem 2rem;
     font-size: 1rem;
-    font-weight: 700;
+    font-weight: 500;
     font-family: $popins;
     border-radius: 5px;
     &:hover{
-        background-color: #c2a8f8f9;
+        background-color: #c3a8f8a2;
         color: $sBlack;
     }
 }

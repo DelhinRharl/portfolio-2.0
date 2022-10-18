@@ -1,9 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-const Socials = () => {
-  return (
-    <div>Socials</div>
-  )
-}
+const Socials = () => (
+  <div>Socials</div>
+);
 
-export default Socials
+export default Socials;
