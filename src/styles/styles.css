@@ -13,7 +13,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   position: fixed;
-  bottom: 0;
+  top: 0;
   width: 100%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -21,9 +21,8 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 20%;
+  height: 5%;
   background-color: #000;
-  border-top: 1px solid #9663fd;
 }
 
 ul {
@@ -44,7 +43,7 @@ ul {
 
 li {
   font-size: 1rem;
-  color: #fff;
+  color: #be9efd;
   font-weight: normal;
 }
 
@@ -53,17 +52,19 @@ li:hover {
 }
 
 li a {
-  color: #fff;
+  color: #be9efd;
   text-decoration: none;
 }
 
 li a:hover {
   color: #9663fd;
+  border-bottom: #9663fd 4px solid;
 }
 
 .hero {
   background-color: #131c2c;
   height: 100vh;
+  padding: 10% 10%;
 }
 
 .hero .hero-text {
@@ -81,7 +82,14 @@ li a:hover {
 }
 
 .hero .hero-text p:first-child {
-  color: #9663fd;
+  color: #4c48a7;
+}
+
+.hero .hero-text p {
+  color: #4c48a7;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: "Poppins", serif;
 }
 
 .hero .hero-text h1 {
@@ -92,5 +100,21 @@ li a:hover {
 .hero .hero-text h2 {
   color: #ab94d9c7;
   font-size: 3rem;
+}
+
+button {
+  background-color: #9663fd;
+  color: #fff;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: "Poppins", serif;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #c2a8f8f9;
+  color: #000;
 }
 /*# sourceMappingURL=styles.css.map */

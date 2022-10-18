@@ -21,13 +21,13 @@ body{
 .nav {
     display: flex;
     position: fixed;
-    bottom: 0;
+    top: 0;
     width: 100%;
     justify-content: center;
     align-items: center;
-    height: 20%;
+    height: 5%;
     background-color: $sBlack;
-    border-top: $border1;
+    // border-bottom: $border1;
     // background-size: 15px 15px;
     // background-image: radial-gradient(transparent 10px, rgb(255, 255, 255), #ffffff);
     // background-repeat: no-repeat;
@@ -44,16 +44,17 @@ body{
         
     li {
         font-size: 1rem;
-        color: $sWhite;
+        color: #be9efd;
         font-weight: normal;
         &:hover{
             color: $primaryColor;
         }
             a {
-                color: $sWhite;
+                color: #be9efd;
                 text-decoration: none;
                 &:hover{
                     color: $primaryColor;
+                    border-bottom: #9663fd 4px solid;
                 }
         }
 }
@@ -61,6 +62,7 @@ body{
 .hero {
     background-color: #131c2c;
     height: 100vh;
+    padding: 10% 10%;
 
     .hero-text{
         display: flex;
@@ -69,7 +71,14 @@ body{
         // align-items: center;
         gap: 1rem;
         p:first-child{
-            color: #9663fd;
+            color: rgb(76, 72, 167);
+        }
+
+        p{
+            color: rgb(76, 72, 167);
+            font-size: 1rem;
+            font-weight: 700;
+            font-family: $popins;
         }
         h1{
             color: #c2a8f8f9;
@@ -82,3 +91,17 @@ body{
     }
 }
 
+button{
+    background-color: $primaryColor;
+    color: $sWhite;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: $popins;
+    border-radius: 5px;
+    &:hover{
+        background-color: #c2a8f8f9;
+        color: $sBlack;
+    }
+}
