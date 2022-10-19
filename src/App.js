@@ -14,8 +14,8 @@ const App = () => (
   <div className="font-body bg-black bg-cover be bg-containt text-white">
     <BrowserRouter>
       <Navbar />
-      <Hero/>
-      <About/>
+      <Hero />
+      <About />
       <Services />
       <Projects />
       <Contact />

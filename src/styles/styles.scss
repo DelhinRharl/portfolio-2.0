@@ -56,9 +56,9 @@ body{
 }
 
 .hero {
-    background-color: #131c2c;
-    height: 90vh;
-    padding: 10% 10%;
+    background-image: linear-gradient( 180deg, #131c2c,  #000);
+    height: 100vh;
+    padding: 5% 2% 2% 10%;
 
     .hero-text{
         display: flex;
@@ -108,9 +108,49 @@ button{
 }
 
 .about{
-    background-color: #223961;
-    height: 100vh;
-    padding: 10% 10%;
+    background-color: #131c2c;
+    height: 75vh;
+    padding: 5% 2% 2% 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    h1{
+        color: $sWhite;
+        font-size: 3rem;
+    }
+    p{
+        color: $sWhite;
+        font-size: 1rem;
+        font-family: $open-sans;
+    }
+}
+
+.services{
+    background-color: #131c2c;
+    height: 75vh;
+    padding:5% 2% 2% 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    h1{
+        color: $sWhite;
+        font-size: 3rem;
+    }
+    p{
+        color: $sWhite;
+        font-size: 1rem;
+        font-family: $open-sans;
+    }
+}
+
+.projects{
+    background-color: #131c2c;
+    height: 75vh;
+    padding: 5% 2% 2% 10%;
     display: flex;
     flex-direction: column;
     justify-content: center;
