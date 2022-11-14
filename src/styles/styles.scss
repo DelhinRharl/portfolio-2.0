@@ -15,7 +15,7 @@ $open-sans: 'Open Sans', sans-serif;
 }
 
 body{
-    background-color: #f2f2f2;
+    background-color: #131c2c;
 }
 
 .nav {
@@ -57,32 +57,41 @@ body{
 
 .hero {
     background-image: linear-gradient( 180deg, #131c2c,  #000);
-    height: 100vh;
+    background-repeat: no-repeat;
+    height:100vh;
+    width: 60%;
     padding: 5% 2% 2% 10%;
+    border-right: #be9efd 1px solid;
 
     .hero-text{
         display: flex;
+        background-color: transparent;
+        width: 100%;
+        padding: 5% 2% 2% 10%;
         flex-direction: column;
         justify-content: center;
         // align-items: center;
-        gap: 1rem;
-        p:first-child{
-            color: rgb(76, 72, 167);
+        gap: 4rem;
+        p:last-child{
+            color: $primaryColor;
+            font-size: 1.5rem;
         }
 
         p{
-            color: rgb(76, 72, 167);
+            color: rgb(246, 246, 249);
+            width: 50%;
             font-size: 1rem;
-            font-weight: 700;
+            font-weight: 300;
+            opacity: 0.5;
             font-family: $popins;
         }
-        h1{
+        h3{
             color: #c2a8f8f9;
-            font-size: 4rem;
+            font-size: 2rem;
         }
         h2{
             color: #ab94d9c7;
-            font-size: 3rem;
+            font-size: 4rem;
         }
     }
 }
