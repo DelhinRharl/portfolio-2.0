@@ -1,66 +1,27 @@
 import React from 'react';
-import {
-  Card, CardContent, Typography,
-} from '@mui/material';
+
+const longText = ' I am conversant with Git and GitHub used for version control  purposes. I have proficiency in relational database systems- Postgresql for data management.  I also have knowledge in Amazon Web  Services, Azure, as well as Google Cloud Platform used by cloud-oriented companies.';
+
+const longText1 = ' I am well acquanted with front-end technologies- JavaScript, HTML,CSS, React and some frameworks like TailwindCSS and SCSS.';
+
+const longText2 = '  I also work on back-end-focused projects using Ruby and Ruby on Rains. I am also familiar with REST-APIs and have built projects using these technologies.';
 
 const Services = () => (
-  <div className="w-full  h-[79vh] flex flex-col items-center justify-center gap-10">
-    <h1 className="text-4xl font-extrabold text-amber-600 "> Services</h1>
-    <p className="font-semibold text-3xl">I offer all these services</p>
-    <ul className="flex items-center justify-center gap-8">
+  <div className="services">
+    <h1> Services</h1>
+    <p>I offer all these services</p>
+    <ul>
       <li>
-        <Card sx={{ width: 300, height: 300 }}>
-          <CardContent>
-            <Typography gutterBottom variant="h5" component="h2" fontWeight="Bold">
-              Web Development
-            </Typography>
-            <Typography variant="body2" color="textSecondary" component="p">
-              I can build you a website that is responsive and looks great on all devices.
-              {' '}
-              <br />
-              {' '}
-              The website can be built using HTML, CSS, JavaScript,
-              {' '}
-              <br />
-              {' '}
-              React, Ruby,Ruby on Rails  and Postgresql.
-              {' '}
-              <br />
-              {' '}
-              Fast and Reliable Web Development!
-            </Typography>
-          </CardContent>
-        </Card>
+        <h2>Front-end Development</h2>
+        <p>{longText1}</p>
       </li>
       <li>
-        <Card sx={{ width: 300, height: 300 }}>
-          <CardContent>
-            <Typography gutterBottom variant="h5" component="h2" fontWeight="Bold">
-              Web Design
-            </Typography>
-            <Typography variant="body2" color="textSecondary" component="p">
-              I can design the best looking  website for your business.
-              {' '}
-              <br />
-              The website can have a unique and beautiful design to suite all your needs.
-            </Typography>
-          </CardContent>
-        </Card>
+        <h2>Back-end Development</h2>
+        <p>{longText2}</p>
       </li>
       <li>
-        <Card sx={{ width: 300, height: 300 }}>
-          <CardContent>
-            <Typography gutterBottom variant="h5" component="h2" fontWeight="Bold">
-              UI/ UX Design
-            </Typography>
-            <Typography variant="body2" color="textSecondary" component="p">
-              I can design the best looking UI/UX for your website.
-              {' '}
-              <br />
-              I can do this using Adobe XD, Sketch, Figma, and Photoshop.
-            </Typography>
-          </CardContent>
-        </Card>
+        <h2>Integration and data management</h2>
+        <p>{longText}</p>
       </li>
     </ul>
   </div>

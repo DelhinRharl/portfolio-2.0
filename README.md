@@ -1,6 +1,6 @@
 # Portfolio
 
-Highlights Affaxed Kiprotich
+This portfolio highlights a my technical as well as soft skills as a web developer.
 
 
 ## Built With
@@ -12,11 +12,11 @@ Highlights Affaxed Kiprotich
 
 ## Live Demo
 
-[Live Demo Link](https://portfolio-affax.herokuapp.com/)
+[Live](https://portfolio-affax.herokuapp.com/)
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+To get a local copy (for testing purposes) up and running follow these simple example steps.
 
 ## Install
 
@@ -26,7 +26,7 @@ In your terminal, navigate to your current directory and run this code
 
 Locate the directory in your file explorer
 
-`cd Leaderboard`
+`cd portfolio-2.0`
 
 Install npm or if installed already using this link
 
@@ -43,8 +43,8 @@ The Project should now be live on your browser
 👤 **Author1**
 
 - GitHub: [@DelhinRharl](https://github.com/DelhinRharl)
-- Twitter: [@affaxed_kip](https://twitter.com/delhinrharl)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/affaxed-kiprotich)
+- Twitter: [@affax_kiprotich](https://twitter.com/affax_kiprotich)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/affaxed-kiprotich/)
 
 ## 📝 License
 

@@ -1,0 +1,230 @@
+@import url(http://fonts.googleapis.com/css?family=Poppins|Open+Sans:400italic,700italic,400,700);
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #131c2c;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 5%;
+  background-color: transparent;
+}
+
+ul {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  gap: 10%;
+  height: 2rem;
+}
+
+li {
+  font-size: 1rem;
+  color: #be9efd;
+  font-weight: normal;
+}
+
+li:hover {
+  color: #9663fd;
+}
+
+li a {
+  color: #be9efd;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #9663fd;
+  border-bottom: #9663fd 4px solid;
+}
+
+.about {
+  background-color: #131c2c;
+  height: 75vh;
+  padding: 5% 2% 2% 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2rem;
+}
+
+.about h1 {
+  color: #fff;
+  font-size: 3rem;
+}
+
+.about p {
+  color: #fff;
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.services {
+  background-color: #131c2c;
+  height: 75vh;
+  padding: 5% 2% 2% 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2rem;
+}
+
+.services h1 {
+  color: #fff;
+  font-size: 3rem;
+}
+
+.services p {
+  color: #fff;
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.projects {
+  background-color: #131c2c;
+  height: 75vh;
+  padding: 5% 2% 2% 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2rem;
+}
+
+.projects h1 {
+  color: #fff;
+  font-size: 3rem;
+}
+
+.projects p {
+  color: #fff;
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.hero {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#131c2c), to(#000));
+  background-image: linear-gradient(180deg, #131c2c, #000);
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 60%;
+  padding: 5% 2% 2% 10%;
+  border-right: #be9efd 1px solid;
+}
+
+.hero .hero-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: transparent;
+  width: 100%;
+  padding: 5% 2% 2% 10%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 4rem;
+}
+
+.hero .hero-text p {
+  color: #f6f6f9;
+  width: 50%;
+  font-size: 1rem;
+  font-weight: 300;
+  opacity: 0.5;
+  font-family: "Poppins", serif;
+}
+
+.hero .hero-text h3 {
+  color: #c2a8f8f9;
+  font-size: 2rem;
+}
+
+.hero .hero-text h2 {
+  color: #ab94d9c7;
+  font-size: 4rem;
+}
+
+.hero .hero-text p:last-child {
+  color: #9663fd;
+  font-size: 1.5rem;
+}
+
+.hero-btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5%;
+}
+
+button {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #9663fd;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: "Poppins", serif;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #c3a8f8a2;
+  color: #000;
+}
+/*# sourceMappingURL=styles.css.map */
