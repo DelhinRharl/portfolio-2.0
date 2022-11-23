@@ -62,7 +62,8 @@ li {
 
 .about {
   background-color: #131c2c;
-  height: 75vh;
+  width: 60%;
+  height: 100vh;
   padding: 5% 2% 2% 10%;
   display: flex;
   flex-direction: column;
@@ -84,6 +85,7 @@ li {
 
 .services {
   background-color: #131c2c;
+  width: 60%;
   height: 75vh;
   padding: 5% 2% 2% 10%;
   display: flex;
@@ -106,6 +108,7 @@ li {
 
 .projects {
   background-color: #131c2c;
+  width: 60%;
   height: 75vh;
   padding: 5% 2% 2% 10%;
   display: flex;
@@ -189,4 +192,26 @@ button {
     background-color: #c3a8f8a2;
     color: $sBlack;
   }
+}
+
+.photo{
+   background-color: $sBlack;
+    height: 100vh;
+    width: 30%;
+    position: fixed;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    img{
+        width: 70%;
+        height: 70%;
+        object-fit: cover;
+        border-radius: 5%;
+        border: 1px solid $primaryColor;
+
+    }
+
 }
