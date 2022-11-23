@@ -3,12 +3,8 @@ import { BrowserRouter } from 'react-router-dom';
 import Hero from './pages/Hero';
 import About from './pages/About';
 import Services from './pages/Services';
-import Projects from './pages/Projects';
-import Contact from './pages/Contact';
-// import Experience from './pages/Experience';
+import Projects from './pages/Projects';;
 import Navbar from './components/Navbar';
-// import Footer from './components/Footer';
-// import Name from './components/Name';
 
 const App = () => (
   <div className="font-body bg-black bg-cover be bg-containt text-white">
@@ -18,7 +14,6 @@ const App = () => (
       <About />
       <Services />
       <Projects />
-      <Contact />
       {/* <Routes>
         <Route path="/" element={<Hero />} />
         <Route path="/about" element={<About />} />
