@@ -9,8 +9,11 @@ const About = () => (
     <h1 className="">
       {' '}
       About Me
-      <p className="" />
     </h1>
+    <h2>
+      {' '}
+      Biography
+    </h2>
     <p>
       {longText1}
     </p>
