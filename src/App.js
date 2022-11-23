@@ -3,13 +3,15 @@ import { BrowserRouter } from 'react-router-dom';
 import Hero from './pages/Hero';
 import About from './pages/About';
 import Services from './pages/Services';
-import Projects from './pages/Projects';;
+import Projects from './pages/Projects';
 import Navbar from './components/Navbar';
+import Photo from './components/Photo';
 
 const App = () => (
-  <div className="font-body bg-black bg-cover be bg-containt text-white">
+  <div>
     <BrowserRouter>
       <Navbar />
+      <Photo />
       <Hero />
       <About />
       <Services />
