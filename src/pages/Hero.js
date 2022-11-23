@@ -12,14 +12,6 @@ const Hero = () => (
       <p>
         {longText1}
       </p>
-      {/* <div className="hero-btns">
-        <a href="https://github.com/DelhinRharl">
-          <button type="button">Find out more!</button>
-        </a>
-        <a href="https://docs.google.com/document/d/19pVS_0LzVRiFRqxSuZgcpXu9yhSraHKdkBwn-9uJtHo/edit?usp=sharing">
-          <button type="button">Resume</button>
-        </a>
-      </div> */}
       <div>
         <p>Affaxed Kiprotich</p>
       </div>
