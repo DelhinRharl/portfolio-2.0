@@ -5,7 +5,9 @@ const longText1 = 'I create styish and sophisticated websites to suit your needs
 const Hero = () => (
   <div className="hero">
     <div className="hero-text">
-      <p> </p>
+      <p> 
+        INTRODUCTION
+      </p>
       <h3>
         Web Developer
       </h3>
