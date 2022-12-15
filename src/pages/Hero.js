@@ -5,12 +5,12 @@ const longText1 = 'I create styish and sophisticated websites to suit your needs
 const Hero = () => (
   <div className="hero">
     <div className="hero-text">
-      <p> 
+      <h5>
         INTRODUCTION
-      </p>
-      <h3>
+      </h5>
+      <h2>
         Web Developer
-      </h3>
+      </h2>
       <p>
         {longText1}
       </p>
