@@ -7,21 +7,21 @@ const longText2 = 'I am a graduate of Microverse, a remote software development 
 const About = () => (
   <div className="about">
     <div className="about-text">
-    <h5>
-      {' '}
-      Biography
-    </h5>
-    <h2 className="">
-      {' '}
-      About Me
-    </h2>
-    <p>
-      {longText1}
-    </p>
-    <p>
-      {longText2}
-    </p>
-  </div>
+      <h5>
+        {' '}
+        Biography
+      </h5>
+      <h2 className="">
+        {' '}
+        About Me
+      </h2>
+      <p>
+        {longText1}
+      </p>
+      <p>
+        {longText2}
+      </p>
+    </div>
   </div>
 );
 
