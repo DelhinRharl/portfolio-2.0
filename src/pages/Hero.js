@@ -5,21 +5,15 @@ const longText1 = 'I create styish and sophisticated websites to suit your needs
 const Hero = () => (
   <div className="hero">
     <div className="hero-text">
-      <p> </p>
-      <h3>
+      <h5>
+        INTRODUCTION
+      </h5>
+      <h2>
         Web Developer
-      </h3>
+      </h2>
       <p>
         {longText1}
       </p>
-      {/* <div className="hero-btns">
-        <a href="https://github.com/DelhinRharl">
-          <button type="button">Find out more!</button>
-        </a>
-        <a href="https://docs.google.com/document/d/19pVS_0LzVRiFRqxSuZgcpXu9yhSraHKdkBwn-9uJtHo/edit?usp=sharing">
-          <button type="button">Resume</button>
-        </a>
-      </div> */}
       <div>
         <p>Affaxed Kiprotich</p>
       </div>

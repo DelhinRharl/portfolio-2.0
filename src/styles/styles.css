@@ -8,6 +8,15 @@ body {
   background-color: #131c2c;
 }
 
+h5 {
+  color: #c3a8f850;
+}
+
+h2 {
+  color: #c3a8f8e0;
+  font-size: 2rem;
+}
+
 .nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -21,8 +30,8 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 5%;
-  background-color: transparent;
+  height: 10%;
+  background-color: black;
 }
 
 ul {
@@ -48,7 +57,7 @@ li {
 }
 
 li:hover {
-  color: #9663fd;
+  color: #dcdcdd;
 }
 
 li a {
@@ -57,14 +66,14 @@ li a {
 }
 
 li a:hover {
-  color: #9663fd;
+  color: #dcdcdd;
   border-bottom: #9663fd 4px solid;
 }
 
 .about {
-  background-color: #131c2c;
-  height: 75vh;
-  padding: 5% 2% 2% 10%;
+  background-color: #000;
+  width: 70%;
+  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -75,25 +84,24 @@ li a:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   gap: 2rem;
 }
 
 .about h1 {
-  color: #fff;
+  color: #aaaaaa;
   font-size: 3rem;
 }
 
 .about p {
-  color: #fff;
+  padding: 5% 2% 2% 10%;
+  color: #aaaaaa;
   font-size: 1rem;
   font-family: "Open Sans", sans-serif;
 }
 
 .services {
   background-color: #131c2c;
+  width: 60%;
   height: 75vh;
   padding: 5% 2% 2% 10%;
   display: -webkit-box;
@@ -113,18 +121,19 @@ li a:hover {
 }
 
 .services h1 {
-  color: #fff;
+  color: #aaaaaa;
   font-size: 3rem;
 }
 
 .services p {
-  color: #fff;
+  color: #aaaaaa;
   font-size: 1rem;
   font-family: "Open Sans", sans-serif;
 }
 
 .projects {
   background-color: #131c2c;
+  width: 60%;
   height: 75vh;
   padding: 5% 2% 2% 10%;
   display: -webkit-box;
@@ -144,23 +153,26 @@ li a:hover {
 }
 
 .projects h1 {
-  color: #fff;
+  color: #aaaaaa;
   font-size: 3rem;
 }
 
 .projects p {
-  color: #fff;
+  color: #aaaaaa;
   font-size: 1rem;
   font-family: "Open Sans", sans-serif;
 }
 
 .hero {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#131c2c), to(#000));
-  background-image: linear-gradient(180deg, #131c2c, #000);
-  background-repeat: no-repeat;
+  background-color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   height: 100vh;
-  width: 60%;
-  padding: 5% 2% 2% 10%;
+  width: 70%;
   border-right: #be9efd 1px solid;
 }
 
@@ -178,31 +190,16 @@ li a:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  gap: 4rem;
+  gap: 2rem;
 }
 
 .hero .hero-text p {
-  color: #f6f6f9;
-  width: 50%;
+  color: white;
+  width: 70%;
   font-size: 1rem;
   font-weight: 300;
-  opacity: 0.5;
+  opacity: 0.8;
   font-family: "Poppins", serif;
-}
-
-.hero .hero-text h3 {
-  color: #c2a8f8f9;
-  font-size: 2rem;
-}
-
-.hero .hero-text h2 {
-  color: #ab94d9c7;
-  font-size: 4rem;
-}
-
-.hero .hero-text p:last-child {
-  color: #9663fd;
-  font-size: 1.5rem;
 }
 
 .hero-btns {
@@ -214,8 +211,8 @@ li a:hover {
 
 button {
   background-color: transparent;
-  color: #fff;
-  border: 1px solid #9663fd;
+  color: #aaaaaa;
+  border: 1px solid #dcdcdd;
   padding: 1rem 2rem;
   font-size: 1rem;
   font-weight: 500;
@@ -226,5 +223,35 @@ button {
 button:hover {
   background-color: #c3a8f8a2;
   color: #000;
+}
+
+.photo {
+  background-color: #000;
+  height: 100vh;
+  width: 30%;
+  position: fixed;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.photo img {
+  width: 70%;
+  height: 70%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5%;
+  border: 1px solid #dcdcdd;
 }
 /*# sourceMappingURL=styles.css.map */
