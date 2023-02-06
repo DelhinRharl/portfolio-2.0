@@ -8,22 +8,22 @@ const longText2 = '  I also work on back-end-focused projects using Ruby and Rub
 
 const Services = () => (
   <section className="services">
-    <div className="services-text">
-      <ul>
-        <li>
-          <h2>Front-end Development</h2>
-          <p>{longText1}</p>
-        </li>
-        <li>
-          <h2>Back-end Development</h2>
-          <p>{longText2}</p>
-        </li>
-        <li>
-          <h2>Integration and data management</h2>
-          <p>{longText}</p>
-        </li>
-      </ul>
-    </div>
+    {/* <div className="services-text"> */}
+    <ul className="services-text">
+      <li>
+        <h2>Front-end Development</h2>
+        <p>{longText1}</p>
+      </li>
+      <li>
+        <h2>Back-end Development</h2>
+        <p>{longText2}</p>
+      </li>
+      <li>
+        <h2>Integration and data management</h2>
+        <p>{longText}</p>
+      </li>
+    </ul>
+    {/* </div> */}
   </section>
 );
 export default Services;

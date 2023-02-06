@@ -4,3 +4,29 @@
     display: flex;
     flex-direction: column;
 }
+
+.services-text{
+    //  background-color: rgb(15, 14, 13);
+    // height: 100%;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+    // gap: 1rem;
+    // border:0.5px solid rgba(0, 77, 77, 0.422);
+    // border-radius: 0.5rem;
+
+    li{
+        background-color: rgb(15, 14, 13);
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2%;
+        gap: 1rem;
+        border:5px solid rgba(0, 77, 77, 0.422);
+        border-radius: 0.5rem;
+    }
+
+}
