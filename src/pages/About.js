@@ -5,7 +5,7 @@ const longText1 = 'Hi, My name is Affaxed Kiprotich. I am a web developer from K
 const longText2 = 'I am a graduate of Microverse, a remote software development school. I have been learning for the past 1 year and I am still learning. I have worked on several projects, both solo and collaborative; that vary in complexity and currently looking for opportunities to work on more challenging projects.';
 
 const About = () => (
-  <div className="about">
+  <section className="about">
     <div className="about-text">
       <h5>
         {' '}
@@ -22,7 +22,7 @@ const About = () => (
         {longText2}
       </p>
     </div>
-  </div>
+  </section>
 );
 
 export default About;

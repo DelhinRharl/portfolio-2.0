@@ -6,11 +6,13 @@ import Services from './pages/Services';
 import Projects from './pages/Projects';
 import Navbar from './components/Navbar';
 import Photo from './components/Photo';
+import Sidebar from './components/Sidebar';
 
 const App = () => (
   <div>
     <BrowserRouter>
       <Navbar />
+      <Sidebar />
       <Photo />
       <Hero />
       <About />

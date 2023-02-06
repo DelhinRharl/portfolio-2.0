@@ -7,8 +7,7 @@ const longText1 = ' I am well acquanted with front-end technologies- JavaScript,
 const longText2 = '  I also work on back-end-focused projects using Ruby and Ruby on Rails. I am also familiar with REST-APIs and have built projects using these technologies.';
 
 const Services = () => (
-  <div className="services">
-    <h1> Services</h1>
+  <section className="services">
     <div className="services-text">
       <ul>
         <li>
@@ -25,6 +24,6 @@ const Services = () => (
         </li>
       </ul>
     </div>
-  </div>
+  </section>
 );
 export default Services;
