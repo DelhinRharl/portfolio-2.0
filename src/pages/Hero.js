@@ -9,7 +9,7 @@ const Hero = () => (
   <section className="hero-section">
     <div className="hero-text">
       <h5>
-        INTRODUCTION
+        Introduction
       </h5>
       <h2>
         Web Developer
