@@ -10,16 +10,17 @@ const Services = () => (
   <section className="services">
     {/* <div className="services-text"> */}
     <ul className="services-text">
+      <h2>Services</h2>
       <li>
-        <h2>Front-end Development</h2>
+        <h3>Front-end Development</h3>
         <p>{longText1}</p>
       </li>
       <li>
-        <h2>Back-end Development</h2>
+        <h3>Back-end Development</h3>
         <p>{longText2}</p>
       </li>
       <li>
-        <h2>Integration and data management</h2>
+        <h3>Integration and data management</h3>
         <p>{longText}</p>
       </li>
     </ul>
