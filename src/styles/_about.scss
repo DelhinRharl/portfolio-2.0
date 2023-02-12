@@ -1,7 +1,7 @@
 
 .about {
     width: 100%;
-    height: 100vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     color: $sWhite; 
@@ -10,13 +10,14 @@
 }
 
 .about-text{
-     background-color: rgb(15, 14, 13);
+    background-color: rgb(13, 15, 15);
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     gap: 1rem;
-    border:0.5px solid rgba(0, 77, 77, 0.422);
+    padding: 1rem;
+    border:0.5px;
     border-radius: 0.5rem;
 }

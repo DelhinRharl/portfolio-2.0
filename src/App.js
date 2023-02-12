@@ -7,6 +7,7 @@ import Projects from './pages/Projects';
 import Navbar from './components/Navbar';
 import Photo from './components/Photo';
 import Sidebar from './components/Sidebar';
+import Footer from './components/Footer';
 
 const App = () => (
   <div>
@@ -26,8 +27,7 @@ const App = () => (
         <Route path="/contacts" element={<Contact />} />
         <Route path="/experience" element={<Experience />} />
       </Routes> */}
-      {/* <Navbar /> */}
-      {/* <Footer /> */}
+      <Footer />
     </BrowserRouter>
   </div>
 );
