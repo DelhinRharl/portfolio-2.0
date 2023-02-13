@@ -1,14 +1,39 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTwitter,faLinkedin,faMedium,faAngellist } from '@fortawesome/free-brands-svg-icons';
+
+const linkedin = <FontAwesomeIcon icon={faLinkedin} />;
+const twitter = <FontAwesomeIcon icon={faTwitter} />;
+const angellist = <FontAwesomeIcon icon={faAngellist} />;
+const medium = <FontAwesomeIcon icon={faMedium} />;
 
 const Footer = () => (
-  <div>
-    <div>
-      <ul>
-        <li />
-      </ul>
-    </div>
-    <p>&copy;affax</p>
-  </div>
+  <section className="footer">
+    <ul>
+      <li>
+        <a href="https://www.linkedin.com/in/affax/" target="_blank" rel="noreferrer">
+            {linkedin}
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/affax/" target="_blank" rel="noreferrer">
+            {twitter}
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/affax/" target="_blank" rel="noreferrer">
+            {angellist}
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/affax/" target="_blank" rel="noreferrer">
+            {medium}
+        </a>
+      </li>
+    </ul>
+
+    <p>© 2022</p>
+  </section>
 );
 
 export default Footer;
