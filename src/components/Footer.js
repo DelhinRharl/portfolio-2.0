@@ -32,7 +32,7 @@ const Footer = () => (
       </li>
     </ul>
 
-    <p>© 2022</p>
+    <p> Affaxed © 2022</p>
   </section>
 );
 
