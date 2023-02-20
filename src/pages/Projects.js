@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState, use} from 'react';
 
 const Projects = () => (
   <section className="projects">
