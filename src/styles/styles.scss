@@ -132,20 +132,10 @@ $open-sans: 'Open Sans', sans-serif;
 }
 
 .projects{
- h1{
-    
-            font-size: 2rem;
-            margin-bottom: 1rem;
-        }
-        p{
-    
-            font-size: 1rem;
-            font-weight: 200;
-        }
-
-        h5 {
-    
-            font-size: 1rem;
-            font-weight: 200;
-        }
+    .projects-text{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        color: $sWhite;
+    }
 }

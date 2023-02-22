@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 function Projects() {
   const [repos, setRepos] = useState([]);
+  const [error, setError] = useState(false);
 
   useEffect(() => {
     const fetchRepos = async () => {
@@ -11,24 +12,27 @@ function Projects() {
         const selectedRepos = data.filter((repo) => repo.name === 'car-booking-service-front-end' || repo.name === 'Capstone-Project-Affaxed' || repo.name === 'blog');
         setRepos(selectedRepos);
       } catch (error) {
-        console.log(error);
+        setError(true);
       }
     };
     fetchRepos();
   }, []);
 
+  if (error) {
+    return <h1>Oops, something went wrong. Blame it on the unicorn.</h1>;
+  }
+
   return (
-    <div>
+    <section>
       <h2>Projects</h2>
       {repos.map((repo) => (
-        <div key={repo.id}>
+        <div key={repo.id} className="hero-text">
           <h3>{repo.name}</h3>
           <p>{repo.description}</p>
-          <img src={repo.image} alt="img" />
           <a href={repo.html_url}>View Repo</a>
         </div>
       ))}
-    </div>
+    </section>
   );
 }
 
