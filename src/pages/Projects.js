@@ -24,6 +24,7 @@ function Projects() {
         <div key={repo.id}>
           <h3>{repo.name}</h3>
           <p>{repo.description}</p>
+          <img src={repo.image} alt="img" />
           <a href={repo.html_url}>View Repo</a>
         </div>
       ))}
