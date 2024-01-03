@@ -23,10 +23,10 @@ function Projects() {
   }
 
   return (
-    <section>
+    <section className="projects">
       <h2>Projects</h2>
       {repos.map((repo) => (
-        <div key={repo.id} className="hero-text">
+        <div key={repo.id} className="projects-text">
           <h3>{repo.name}</h3>
           <p>{repo.description}</p>
           <a href={repo.html_url}>View Repo</a>
@@ -36,6 +36,6 @@ function Projects() {
   );
 }
 
-//resume operations 02012024
+// resume operations 02012024
 
 export default Projects;
