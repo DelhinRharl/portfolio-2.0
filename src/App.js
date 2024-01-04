@@ -6,11 +6,14 @@ import Services from './pages/Services';
 import Projects from './pages/Projects';
 import Navbar from './components/Navbar';
 import Photo from './components/Photo';
+import Sidebar from './components/Sidebar';
+import Footer from './components/Footer';
 
 const App = () => (
   <div>
     <BrowserRouter>
       <Navbar />
+      <Sidebar />
       <Photo />
       <Hero />
       <About />
@@ -24,8 +27,7 @@ const App = () => (
         <Route path="/contacts" element={<Contact />} />
         <Route path="/experience" element={<Experience />} />
       </Routes> */}
-      {/* <Navbar /> */}
-      {/* <Footer /> */}
+      <Footer />
     </BrowserRouter>
   </div>
 );

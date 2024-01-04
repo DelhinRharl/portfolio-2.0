@@ -1,12 +1,15 @@
 import React from 'react';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+// const hamburger = <FontAwesomeIcon icon="fa-solid fa-coffee" size="lg" />;
 
 const longText1 = 'I create styish and sophisticated websites to suit your needs using the latest technologies; as well as offer other web related services.';
 
 const Hero = () => (
-  <div className="hero">
+  <section className="hero-section">
     <div className="hero-text">
       <h5>
-        INTRODUCTION
+        Introduction
       </h5>
       <h2>
         Web Developer
@@ -14,11 +17,11 @@ const Hero = () => (
       <p>
         {longText1}
       </p>
-      <div>
+      <span>
         <p>Affaxed Kiprotich</p>
-      </div>
+      </span>
     </div>
-  </div>
+  </section>
 );
 
 export default Hero;

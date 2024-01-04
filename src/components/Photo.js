@@ -2,10 +2,7 @@ import React from 'react';
 
 const Photo = () => (
   <div className="photo">
-    <h1>
-      jksfsd f
-    </h1>
-    <img src="" alt="Affaxed Kiprotich" />
+    <img src="https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350" alt="Affaxed Kiprotich" />
   </div>
 );
 
