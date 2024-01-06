@@ -4,7 +4,6 @@
     display: flex;
     flex-direction: column;
     gap: 0.8rem;
-
     .projects-text{
      background-color: rgb(13, 15, 15);
      border:0.5px;
@@ -12,11 +11,29 @@
      padding: 0.5rem;
 }
 
+button{
+    width: 20%;
+    height: 10%;
+    background-color: #a27777;
+    display: flex;
+    align-items: center;
+    padding: 1%;
+    color: #fff;
+    text-decoration: none;
+    border: none; 
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+            background-color: #874e4e; /* Color change on hover */
+        }
+
     a { 
-        color: chocolate;
+        color: #000000;
         text-decoration: none;
-        background-color: rgb(27, 31, 35);
+        background-color: transparent;
         width:max-content;
     }
 }
-
