@@ -93,3 +93,17 @@ $open-sans: 'Open Sans', sans-serif;
         color: $sWhite;
     }
 }
+
+.toggle {
+    position:fixed;
+    right: 1rem;
+    top: 2rem;
+    background-color:transparent;
+    border: none;
+
+    span {
+    font-size: 4rem;
+    color: chocolate;
+}
+}
+

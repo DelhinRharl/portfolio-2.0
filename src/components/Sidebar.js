@@ -1,7 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-const Sidebar = () => (
-  <nav className="sidebar">
+const Sidebar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+  return (
+    <>
+    <button type="button"
+    className="toggle" 
+     onClick={() => setIsOpen(!isOpen)}>
+      <span className="material-symbols-outlined">
+      {isOpen ? 'toggle_on' : 'toggle_off'}
+      </span>
+    </button>
+  <nav className={`sidebar  ${ isOpen ? 'sidebar-open' :'sidebar-closed'}`}>
+    ;
     <ul>
       <li>
         <a href="#about">Home</a>
@@ -20,6 +31,8 @@ const Sidebar = () => (
       </li>
     </ul>
   </nav>
-);
+  </>
+  )
+};
 
 export default Sidebar;
