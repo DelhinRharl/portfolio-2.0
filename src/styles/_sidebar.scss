@@ -1,17 +1,20 @@
 .sidebar {
     position:fixed;
-    left: 0;
+    right: 0;
+    top: 0;
     width: 100%;
-    height: 50vh;
+    height: 100vh;
     background-color: $sBlack;
     transition: transform 0.5s ease-in-out;
 
      &.sidebar-open{
         transform: translateX(0);
+        // filter: blur(.3125rem);
     }
 
     &.sidebar-closed{
-        transform: translateX(-100%);
+        transform: translateX(100%);
+        // filter: blur(0);
     }
 
     ul {
@@ -19,8 +22,8 @@
         height: 50vh;
         display: flex;
         flex-direction: column; 
-        // justify-content: space-evenly;
         align-items: center;
+        justify-content: center;
         gap: 1rem;
 
         li {
@@ -50,9 +53,14 @@
     top: 2rem;
     background-color:transparent;
     border: none;
+    z-index: 1;
 
     span {
     font-size: 4rem;
-    color: chocolate;
+    color: #a27777;
+
+    &:hover{
+        color: #9d5f5f;
+    }
 }
 }

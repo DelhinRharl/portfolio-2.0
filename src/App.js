@@ -19,6 +19,7 @@ const App = () => (
       <About />
       <Services />
       <Projects />
+      <Footer />
       {/* <Routes>
         <Route path="/" element={<Hero />} />
         <Route path="/about" element={<About />} />
@@ -27,7 +28,7 @@ const App = () => (
         <Route path="/contacts" element={<Contact />} />
         <Route path="/experience" element={<Experience />} />
       </Routes> */}
-      <Footer />
+      
     </BrowserRouter>
   </div>
 );
