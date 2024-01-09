@@ -1,18 +1,18 @@
 import React, { useState } from 'react';
 
 const Sidebar = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   return (
     <>
     <button type="button"
     className="toggle" 
-     onClick={() => setIsOpen(!isOpen)}>
+     onClick={() => setIsSidebarOpen(!isSidebarOpen)
+     }>
       <span className="material-symbols-outlined">
-      {isOpen ? 'toggle_on' : 'toggle_off'}
+        {isSidebarOpen ? 'toggle_on' : 'toggle_off'}
       </span>
     </button>
-  <nav className={`sidebar  ${ isOpen ? 'sidebar-open' :'sidebar-closed'}`}>
-    ;
+     <nav className={`sidebar  ${isSidebarOpen ? 'sidebar-open' : 'sidebar-closed'}`}>
     <ul>
       <li>
         <a href="#about">Home</a>
@@ -31,8 +31,8 @@ const Sidebar = () => {
       </li>
     </ul>
   </nav>
-  </>
-  )
+      </>
+  );
 };
 
 export default Sidebar;

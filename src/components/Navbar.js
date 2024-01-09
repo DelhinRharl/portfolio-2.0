@@ -1,9 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-
 const Navbar = () => (
-  <div className="nav">
+  <div className="navi">
     <ul className="">
       <li className="">
         <Link to="/"> Home </Link>
