@@ -7,6 +7,7 @@ import Projects from './pages/Projects';
 import Navbar from './components/Navbar';
 import Photo from './components/Photo';
 import Sidebar from './components/Sidebar';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 const App = () => (
@@ -19,6 +20,7 @@ const App = () => (
       <About />
       <Services />
       <Projects />
+      <Contact />
       <Footer />
       {/* <Routes>
         <Route path="/" element={<Hero />} />
@@ -28,7 +30,6 @@ const App = () => (
         <Route path="/contacts" element={<Contact />} />
         <Route path="/experience" element={<Experience />} />
       </Routes> */}
-      
     </BrowserRouter>
   </div>
 );

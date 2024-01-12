@@ -1,0 +1,36 @@
+.contact {
+    background-color: #000000;
+    color: #805656;
+    text-align: center;
+    width: 100%;
+    height: 30vh;
+    gap: 10%;
+    justify-content: center;
+    
+
+    p{
+        padding: 2rem;
+    }
+       a {
+    color: #a27777;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    list-style: none;
+}
+
+ li {
+    text-decoration: none;
+}
+
+   a:hover {
+    color: #de741d;
+}
+
+}

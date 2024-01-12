@@ -6,8 +6,7 @@ const Sidebar = () => {
     <>
     <button type="button"
     className="toggle" 
-     onClick={() => setIsSidebarOpen(!isSidebarOpen)
-     }>
+     onClick={() => setIsSidebarOpen(!isSidebarOpen)}>
       <span className="material-symbols-outlined">
         {isSidebarOpen ? 'toggle_on' : 'toggle_off'}
       </span>

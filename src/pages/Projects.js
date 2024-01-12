@@ -19,7 +19,7 @@ function Projects() {
   }, []);
 
   if (error) {
-    return <h1>Oops, something went wrong. Blame it on the unicorn.</h1>; // TODO: Add a unicorn
+    return <h1>Sorry!</h1>;
   }
 
   return (
