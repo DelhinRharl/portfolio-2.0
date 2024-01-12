@@ -19,7 +19,7 @@ function Projects() {
   }, []);
 
   if (error) {
-    return <h1>Oops, something went wrong. Blame it on the unicorn.</h1>; // TODO: Add a unicorn
+    return <h1>Sorry!</h1>;
   }
 
   return (
@@ -29,7 +29,9 @@ function Projects() {
         <div key={repo.id} className="projects-text">
           <h3>{repo.name}</h3>
           <p>{repo.description}</p>
-          <a href={repo.html_url}>View Repo</a>
+          <button type="button">
+            <a href={repo.html_url}>View Repo</a>
+          </button>
         </div>
       ))}
     </section>

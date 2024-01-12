@@ -1,13 +1,40 @@
 .projects{
     width: 100%;
-    height: 60vh;
+    height: auto;
     display: flex;
     flex-direction: column;
-}
+    gap: 0.8rem;
 
-.projects-text{
-     background-color: rgb(13, 15, 15);
+    .projects-text{
      border:0.5px;
      border-radius: 0.5rem;
      padding: 0.5rem;
+     background-color: #191919;
+}
+
+button{
+    width: 20%;
+    height: 10%;
+    background-color: #a27777;
+    display: flex;
+    align-items: center;
+    padding: 1%;
+    color: #fff;
+    text-decoration: none;
+    border: none; 
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+            background-color: #874e4e; /* Color change on hover */
+        }
+
+    a { 
+        color: #000000;
+        text-decoration: none;
+        background-color: transparent;
+        width:max-content;
+    }
 }

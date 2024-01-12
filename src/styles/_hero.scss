@@ -1,13 +1,13 @@
  section {
     width:100%;
-    height: 50vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
-    // background-color: rgb(22, 20, 17);
+    border-bottom: 0.25px solid #313030; 
 }
 
 .hero-text{
-    background-color: rgb(13, 15, 15);
+    // background-color: rgb(13, 15, 15);
     height: 100%;
     display: flex;
     flex-direction: column;

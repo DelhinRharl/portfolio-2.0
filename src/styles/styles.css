@@ -9,10 +9,10 @@ section {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  border-bottom: 0.25px solid #313030;
 }
 
 .hero-text {
-  background-color: #0f0e0d;
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -24,21 +24,18 @@ section {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 1rem;
   gap: 1rem;
-  border: 0.5px solid rgba(0, 77, 77, 0.422);
+  border: 0.5px;
   border-radius: 0.5rem;
-}
-
-.hero-text :hover {
-  background-color: #50483d;
 }
 
 .about {
   width: 100%;
-  height: 100vh;
+  height: 60vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -46,9 +43,30 @@ section {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  color: #fcfcfc;
+  color: #505050;
   padding: 1rem 0;
   gap: 1rem;
+}
+
+.about-text {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 1rem;
+  padding: 1rem;
+  border: 0.5px;
+  border-radius: 0.5rem;
 }
 
 .services {
@@ -63,7 +81,164 @@ section {
           flex-direction: column;
 }
 
+.services-text {
+  border: 0.5px;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+.services-text li {
+  background-color: #161617;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 2%;
+  border: 0.5px;
+  border-radius: 0.5rem;
+}
+
 .projects {
+  width: 100%;
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 0.8rem;
+}
+
+.projects .projects-text {
+  border: 0.5px;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+.projects button {
+  width: 20%;
+  height: 10%;
+  background-color: #a27777;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1%;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  -webkit-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
+}
+
+.projects button:hover {
+  background-color: #874e4e;
+  /* Color change on hover */
+}
+
+.projects a {
+  color: #000000;
+  text-decoration: none;
+  background-color: transparent;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 200;
+  background-color: transparent;
+  color: rgba(123, 230, 194, 0.868);
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: 200;
+  background-color: transparent;
+  color: rgba(112, 155, 194, 0.451);
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 200;
+  background-color: transparent;
+  color: fff;
+}
+
+h5 {
+  font-size: 1.5rem;
+  font-weight: 200;
+  background-color: transparent;
+  color: rgba(112, 155, 194, 0.451);
+}
+
+span {
+  font-size: 1rem;
+  font-weight: 200;
+  background-color: transparent;
+  color: rgba(130, 197, 255, 0.451);
+}
+
+.footer {
+  background-color: #000000;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  height: 10vh;
+  gap: 20%;
+}
+
+.footer a {
+  color: #a27777;
+  font-size: 1rem;
+  text-decoration: none;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+.footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 1rem;
+  list-style: none;
+}
+
+.footer li {
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #de741d;
+}
+
+.sidebar {
+  width: 10%;
+  height: 50vh;
+  background-color: black;
+}
+
+.sidebar ul {
   width: 100%;
   height: 50vh;
   display: -webkit-box;
@@ -73,21 +248,38 @@ section {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
 }
 
-h2 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
+.sidebar ul li {
+  width: 100%;
+  height: 5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
-p {
-  font-size: 1.5rem;
-  font-weight: 200;
+.sidebar ul li:hover {
+  background-color: #454545;
+  color: black;
 }
 
-h5 {
-  font-size: 1rem;
-  font-weight: 200;
+.sidebar ul li a {
+  text-decoration: none;
+  background-color: transparent;
+  color: #a27777;
 }
 
 * {
@@ -95,10 +287,6 @@ h5 {
   padding: 0.5px;
   font-family: "Poppins", serif;
   background-color: #000000;
-}
-
-.hero-section :hover {
-  background-color: #161616;
 }
 
 .hero-section .hero-text {
@@ -110,62 +298,28 @@ h5 {
       -ms-flex-direction: column;
           flex-direction: column;
   gap: 1rem;
-  color: #fcfcfc;
+  color: #505050;
   border: 0.5px 1rem solid #c2a3ff66;
 }
 
-.hero-section .hero-text h2 {
-  font-family: "Poppins", serif;
-  font-size: 2rem;
-  margin-bottom: 1rem;
-  background-color: transparent;
-}
-
-.hero-section .hero-text p {
-  font-family: "Poppins", serif;
-  font-size: 1.5rem;
-  font-weight: 200;
-  background-color: transparent;
-}
-
-.hero-section .hero-text h5 {
-  font-family: "Poppins", serif;
-  font-size: 1rem;
-  font-weight: 200;
-  background-color: transparent;
-}
-
 @media only screen and (max-width: 767px) {
-  .hero-section .hero-text h1 {
+  .hero-text h1 {
     font-size: 2rem;
   }
-  .hero-section .hero-text p {
+  .hero-text p {
     font-size: 1rem;
   }
 }
 
 .sidebar {
   width: 100%;
-  height: 80vh;
-  background-color: #000;
-  display: none;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 1rem 0;
-  gap: 0,5rem;
+  height: 50vh;
+  background-color: black;
 }
 
 .sidebar ul {
   width: 100%;
-  height: 80vh;
+  height: 50vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -173,20 +327,15 @@ h5 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 0.1rem;
-  border: 0.5px 1rem solid #c2a3ff66;
-  border-radius: 10px;
+  gap: 1rem;
 }
 
 .sidebar ul li {
   width: 100%;
-  height: 20vh;
+  height: 5vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -197,24 +346,19 @@ h5 {
       -ms-flex-align: center;
           align-items: center;
   cursor: pointer;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .sidebar ul li:hover {
-  background-color: #fcfcfc;
-  color: #000;
-}
-
-.sidebar ul li img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
+  background-color: #454545;
+  color: black;
 }
 
 .sidebar ul li a {
   text-decoration: none;
+  background-color: transparent;
+  color: #a27777;
 }
 
 .about .about-text {
@@ -226,24 +370,7 @@ h5 {
       -ms-flex-direction: column;
           flex-direction: column;
   gap: 1rem;
-  color: #fcfcfc;
-}
-
-.about .about-text h2 {
-  font-family: "Poppins", serif;
-  font-size: 2rem;
-}
-
-.about .about-text p {
-  font-family: "Poppins", serif;
-  font-size: 1.2rem;
-  font-weight: 200;
-}
-
-.about .about-text h5 {
-  font-family: "Poppins", serif;
-  font-size: 1rem;
-  font-weight: 200;
+  color: #505050;
 }
 
 @media only screen and (max-width: 767px) {
@@ -264,7 +391,7 @@ h5 {
       -ms-flex-direction: column;
           flex-direction: column;
   gap: 1rem;
-  color: #fcfcfc;
+  color: #505050;
 }
 
 .services .services-text ul {
@@ -278,39 +405,15 @@ h5 {
   gap: 1rem;
 }
 
-.services .services-text h2 {
-  font-family: "Poppins", serif;
-  font-size: 1rem;
-  margin-bottom: 1rem;
-}
-
-.services .services-text p {
-  font-family: "Poppins", serif;
-  font-size: 1rem;
-  font-weight: 200;
-}
-
-.services .services-text h5 {
-  font-family: "Poppins", serif;
-  font-size: 1rem;
-  font-weight: 200;
-}
-
-.projects h1 {
-  font-family: "Poppins", serif;
-  font-size: 2rem;
-  margin-bottom: 1rem;
-}
-
-.projects p {
-  font-family: "Poppins", serif;
-  font-size: 1rem;
-  font-weight: 200;
-}
-
-.projects h5 {
-  font-family: "Poppins", serif;
-  font-size: 1rem;
-  font-weight: 200;
+.projects .projects-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1rem;
+  color: #505050;
 }
 /*# sourceMappingURL=styles.css.map */
