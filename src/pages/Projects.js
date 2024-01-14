@@ -25,7 +25,8 @@ function Projects() {
   return (
     <section className="projects">
       <h2>Projects</h2>
-      {repos.map((repo) => (
+    <div className="projects-container">
+       {repos.map((repo) => (
         <div key={repo.id} className="projects-text">
           <h3>{repo.name}</h3>
           <p>{repo.description}</p>
@@ -34,6 +35,7 @@ function Projects() {
           </button>
         </div>
       ))}
+    </div>
     </section>
   );
 }

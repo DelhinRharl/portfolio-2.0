@@ -15,4 +15,11 @@
     
 }
 
-// Path: src\styles\_about.scss
+
+@include devices (desktop){
+        .photo{
+            width: 50%;
+            height: 75%;
+            border: rgb(139, 79, 0) 1px solid;
+        }
+    }
