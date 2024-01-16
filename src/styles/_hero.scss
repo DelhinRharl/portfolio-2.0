@@ -19,3 +19,20 @@
     border-radius: 0.5rem;
 
 }
+
+@include devices(desktop){
+    section {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .hero-text{
+        flex: 60%;
+        height: 100%;
+        padding: 10%;
+        box-sizing: border-box;
+        gap: 2rem;
+    }
+}
