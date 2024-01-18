@@ -21,3 +21,38 @@
     border:0.5px;
     border-radius: 0.5rem;
 }
+
+@include devices(desktop){
+    .about{
+        align-items: center;
+        align-content: center;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+    .about-text{
+        width: 100%;
+        flex: 70%;
+        border-right: 1px solid  #a27777;
+        // border-left: 1px solid #a27777;
+    }
+
+    .about-button{
+        flex: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+
+        button{
+            color: #fff;
+            width:  80%;
+            height: 40%;
+            border-radius: .3125rem;
+            border: none;
+            // border-left: 1px solid #a27777;
+            background-color: rgb(12, 12, 12);
+        }
+    }
+}

@@ -9,11 +9,11 @@ const About = () => (
     <div className="about-text">
       <h5>
         {' '}
-        Biography
+        ABOUT ME
       </h5>
       <h2 className="">
         {' '}
-        About Me
+        Biography
       </h2>
       <p>
         {longText1}
@@ -21,6 +21,9 @@ const About = () => (
       <p>
         {longText2}
       </p>
+    </div>
+    <div className="about-button">
+      <button type="button">Get Resume</button>
     </div>
   </section>
 );
