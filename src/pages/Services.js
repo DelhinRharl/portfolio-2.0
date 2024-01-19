@@ -9,7 +9,6 @@ const longText2 = '  I also work on back-end-focused projects using Ruby and Rub
 const Services = () => (
   <section className="services">
     <h2>Services</h2>
-    <div className="services-container">
     <ul className="services-text">
       <li>
         <h3>Front-end Development</h3>
@@ -24,7 +23,6 @@ const Services = () => (
         <p>{longText}</p>
       </li>
     </ul>
-    </div>
   </section>
 );
 export default Services;

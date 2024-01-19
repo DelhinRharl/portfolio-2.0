@@ -68,20 +68,6 @@ $open-sans: 'Open Sans', sans-serif;
         }
     }
 }
-.services{
-     .services-text{
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-        color: $sWhite;
-
-        ul{
-            display: flex;
-            flex-direction: column;
-            gap: 1rem;
-        }
-    }
-}
 
 .projects{
     .projects-text{
