@@ -1,6 +1,6 @@
 .projects{
-    width: 100%;
-    height: 100vh;
+    width: 100vw;
+    height: 100%;
     display: flex;
     flex-direction: column;
     gap: 0.8rem;
@@ -28,7 +28,7 @@ button{
 }
 
 button:hover {
-            background-color: #874e4e; /* Color change on hover */
+            background-color: #874e4e;
         }
 
     a { 
