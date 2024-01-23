@@ -25,6 +25,16 @@ $open-sans: 'Open Sans', sans-serif;
     background-color: #000000;
 }
 
+@include devices(desktop){
+    .main-container {
+    display: flex;
+}
+
+
+.app-container{
+    width: 60%;
+}
+}
 .hero-section{
 
     .hero-text{
