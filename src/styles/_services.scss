@@ -25,12 +25,16 @@
 
     @include devices (desktop) {
         .services-text {
-            flex-direction: row;
+            flex-direction: column;
             height: 80vh;
             gap: 1%;
+            padding-left: 10%;
 
             li {
-                height: 40%;
+                height: 50%;
+                width: 50%;
+                border: none;
+                border-radius: 0;
             }
 
             &:hover {
