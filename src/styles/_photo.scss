@@ -18,13 +18,12 @@
 
 @include devices (desktop){
         .photo{
-            width: 40%;
+            width: 30%;
             height: 100%;
             align-items: center;
             position: fixed;
             top: 0;
             right: 0;
-            overflow-y: auto;
 
             img {
                 width: 50%;

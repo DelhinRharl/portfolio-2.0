@@ -24,6 +24,10 @@
     }
 
     @include devices (desktop) {
+
+        .services{
+             width: 60%;
+        }
         .services-text {
             flex-direction: column;
             height: 80vh;
