@@ -1,6 +1,6 @@
 import React from 'react';
 
-const longText = ' I am conversant with Git and GitHub used for version control  purposes. I have proficiency in both relational and non-relational database systems- Postgresql and MongoDB for data management.  I also have knowledge in Amazon Web  Services, Azure, as well as Google Cloud Platform used by cloud-oriented companies.';
+const longText = ' I am conversant with Git and GitHub used for version control  purposes. I have proficiency in both relational and non-relational database systems- Postgresql and MongoDB for data management.  I also have knowledge in Amazon Web  Services, Azure, as well as Google Cloud Platform used by cloud-oriented companies sdf sd fue asnd fue houas fn e hoaws hfo eo ';
 
 const longText1 = ' I am well acquanted with front-end technologies- JavaScript, HTML,CSS, React and some frameworks like TailwindCSS and SCSS.';
 

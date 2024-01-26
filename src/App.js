@@ -6,7 +6,7 @@ import Services from './pages/Services';
 import Projects from './pages/Projects';
 import Photo from './components/Photo';
 import Sidebar from './components/Sidebar';
-import Contact from './components/Contact';
+// import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 const App = () => (
@@ -18,7 +18,7 @@ const App = () => (
         <About />
         <Services />
         <Projects />
-        <Contact />
+        {/* <Contact /> */}
         <Footer />
       </div>
       <div className="photo">

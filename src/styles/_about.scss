@@ -1,6 +1,6 @@
 
 .about {
-    height: 60vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     color: $sWhite; 
@@ -27,10 +27,11 @@
         display: flex;
         flex-direction: row;
         gap: 1rem;
-        // width: 100%;
     }
+
     .about-text{
-        
+        width: 70%;
+        padding: 0 10%;
     }
 
     .about-button{
@@ -45,7 +46,6 @@
             height: 40%;
             border-radius: .3125rem;
             border: none;
-            // border-left: 1px solid #a27777;
             background-color: rgb(12, 12, 12);
         }
     }
