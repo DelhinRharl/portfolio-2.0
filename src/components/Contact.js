@@ -15,7 +15,6 @@ const Contact = () => (
     <div className="contact-text">
       <h3>CONTACT</h3>
       <h1>Get in Touch</h1>
-      <p>Do you have any questions and/or requests? Reach out to me using the links below!</p>
     </div>
     <ul>
       <li>
