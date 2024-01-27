@@ -26,17 +26,17 @@
     @include devices (desktop) {
 
         .services{
-             width: 60%;
+             width: 100%;
         }
         .services-text {
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             align-items: center;
-            gap: 5%;
+            gap: 2%;
             padding: 0 10%;
 
             li {
-                height:50%;
+                height: 20%;
                 width: 100%;
                 border: none;
                 border-radius: 0;

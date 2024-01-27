@@ -41,8 +41,16 @@ ul {
     .contact{
         display: flex;
         flex-direction:column;
-        align-items: flex-start;
-        padding-left: 10%
-        ;
+        padding: 5%;
+
+        .contact-text{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        p{
+            width: 50%;
+        }
     }
 }
