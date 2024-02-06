@@ -20,6 +20,9 @@ const App = () => (
         <Projects />
         <Footer />
       </div>
+      {/* Divider */}
+      <div className="divider"></div>
+      {/* Photo Component */}
       <div className="photo">
         <Photo />
       </div>

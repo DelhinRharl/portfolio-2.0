@@ -30,6 +30,14 @@ $open-sans: 'Open Sans', sans-serif;
     display: flex;
 }
 
+.divider {
+  width: 5;
+  height: 100%;
+  background-color: #a27777;
+  position: fixed;
+  left: 69%;
+}
+
 
 .app-container{
     height: 100%;
